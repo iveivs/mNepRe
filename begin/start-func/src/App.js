@@ -11,6 +11,8 @@ import { Context } from "./hooks/Context";
 import { Books } from "./components/Books"
 import UseReducer from "./hooks/UseReducer/UseReducer";
 import UseReducer2 from "./hooks/UseReducer2/Usereducer2";
+import UseMemo from "./hooks/UseMemo";
+import UseCallback from "./hooks/UseCallback";
 
 function App() {
   const [isClicker, setIsClicker] = useState(false)
@@ -50,6 +52,12 @@ function App() {
         <br />
         <hr />
         < UseReducer2 />
+        <br />
+        <hr />
+        <UseMemo  />
+        <br />
+        <hr />
+        < UseCallback />
     </div>
   );
 }
