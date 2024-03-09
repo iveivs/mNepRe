@@ -1,0 +1,3 @@
+const Editpost = () => {
+    div
+}
