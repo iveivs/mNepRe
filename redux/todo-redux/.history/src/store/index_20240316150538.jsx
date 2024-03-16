@@ -17,8 +17,8 @@ export const configureStore = () => {
         window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     )
 
-    store.subscribe(throttle(() => {
+    store.subscribe(() => {
         saveState(store.getState())
-    }, 1000))
+    })
     return store
 }

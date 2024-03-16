@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 // import { store } from "./store/index"; 
 import { configureStore } from "./store/index.jsx";
 
-const store =  configureStore()
+const store =  configureStore
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <Provider store={store}>

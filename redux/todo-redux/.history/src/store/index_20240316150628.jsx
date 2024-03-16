@@ -19,6 +19,6 @@ export const configureStore = () => {
 
     store.subscribe(throttle(() => {
         saveState(store.getState())
-    }, 1000))
+    }))
     return store
 }
